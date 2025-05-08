@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: 'Creepster', sans-serif;
+    color: #75aa2b;
+    font-size: 48px
+  }
+  
+  #character-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 36px;
+  }
+  
+  .character-card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  }
+
+  .character-card:hover {
+    cursor: crosshair;
+    color: red;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.322);;
+  }
+  
+  .character-card img {
+    width: 100%;
+    border-radius: 6px;
+  }
+  
+  .character-name {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
