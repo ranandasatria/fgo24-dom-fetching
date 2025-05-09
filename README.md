@@ -5,6 +5,7 @@ This project showcases a list of characters from the Rick and Morty universe usi
 Each character is displayed with an image and name in a responsive grid layout, showing three characters per row.
 
 ## Preview
+![Preview](src/image1.png)
 ![Preview](src/image.png)
 
 
